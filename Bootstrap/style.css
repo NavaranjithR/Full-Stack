@@ -1,0 +1,70 @@
+@media screen and (min-width: 960px) {
+  #navbarNav {
+    display: flex;
+    justify-content: end;
+  }
+  .nav-item {
+    padding-right: 40px;
+  }
+  .nav-link:hover {
+    color: red;
+    text-decoration: underline;
+  }
+}
+@media screen and (max-width: 960px) {
+  .navbar-nav {
+    align-items: center;
+  }
+  .nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: red;
+  }
+}
+@media screen and (min-width: 540px) {
+  .button {
+    display: flex;
+    justify-content: end;
+  }
+}
+.navbar-brand img {
+  width: 130px;
+  height: 50px;
+  padding: 0px;
+  margin-left: 40px;
+}
+h1 {
+  font-family: "Sofia", sans-serif;
+  text-shadow: 3px 3px 3px #ababab;
+  font-weight: 800;
+  font-size: 42px;
+}
+h2 {
+  text-shadow: 3px 3px 3px #ababab;
+  font-weight: 600;
+  font-family: "Sofia", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+h5 {
+  font-family: cursive;
+  font-weight: bold;
+}
+p {
+  color: #ababab;
+}
+.bg-color-team {
+  background-color: rgba(217, 221, 225, 0.5);
+}
+.footer-product a,
+.footer-resources a {
+  text-decoration: none;
+  color: black;
+  padding-top: 13px;
+}
+.footer-contact p {
+  color: black;
+}
+.footer-info a:hover {
+  color: red;
+  text-decoration: underline;
+}
