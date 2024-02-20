@@ -10,6 +10,10 @@
     color: red;
     text-decoration: underline;
   }
+  .button {
+    display: flex;
+    justify-content: end;
+  }
 }
 @media screen and (max-width: 960px) {
   .navbar-nav {
@@ -19,11 +23,31 @@
     text-decoration: underline;
     text-decoration-color: red;
   }
-}
-@media screen and (min-width: 540px) {
+  .info-button,
+  .stat-button,
   .button {
     display: flex;
-    justify-content: end;
+    justify-content: center;
+  }
+  h1,
+  .stat-para {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 540px) {
+  .footer-info {
+    text-align: center;
+  }
+  .stat-info h1 {
+    text-align: center;
+  }
+  .team-card-body {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 960px) {
+  .feature-img {
+    display: none;
   }
 }
 .navbar-brand img {
@@ -51,6 +75,9 @@ h5 {
 }
 p {
   color: #ababab;
+}
+.appservice-card {
+  height: 325px;
 }
 .bg-color-team {
   background-color: rgba(217, 221, 225, 0.5);

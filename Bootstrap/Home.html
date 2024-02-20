@@ -58,7 +58,7 @@
       </nav>
     </header>
     <!--HomePage-->
-    <div class="container-fluid text-center bg-danger-subtle">
+    <div class="container-fluid bg-danger-subtle">
       <div class="row p-4 app-info">
         <div class="col-sm-12 col-md-12 col-lg-6 text-start pt-5">
           <h1>App, Bussiness & SaaS</h1>
@@ -69,32 +69,36 @@
             sapiente, fugiat!
           </p>
           <br />
-          <button
-            type="button"
-            class="btn btn-outline-danger rounded-pill px-4"
-          >
-            Download Now
-          </button>
-          <button
-            type="button"
-            class="btn btn-outline-danger rounded-pill px-4"
-          >
-            Learn More
-          </button>
+          <div class="info-button">
+            <button
+              type="button"
+              class="btn btn-outline-danger rounded-pill px-4 mx-1"
+            >
+              Download Now
+            </button>
+            <button
+              type="button"
+              class="btn btn-outline-danger rounded-pill px-4 mx-1"
+            >
+              Learn More
+            </button>
+          </div>
         </div>
-        <div class="col-sm-12 col-md-12 col-lg-6 ml-5">
+        <div class="col-sm-12 col-md-12 col-lg-6 ml-5 text-center">
           <img src="Images/appinfo image.png" class="img-fluid" />
         </div>
       </div>
     </div>
     <!--Service-->
-    <section class="section-padding p-1">
+    <section class="section-padding p-4">
       <div class="container-fluid">
         <h2 class="text-center pt-4">Our Services</h2>
       </div>
-      <div class="row mx-3 appservice -cards">
+      <div class="row mx-3 appservice-cards">
         <div class="col-md-6 col-lg-4 col-sm-12 mt-4 p-3">
-          <div class="card text-center p-5 shadow bg-body-tertiary rounded">
+          <div
+            class="card text-center p-5 shadow bg-body-tertiary rounded appservice-card"
+          >
             <i class="fa-solid fa-gear" style="height: 40px"></i>
             <div class="card-body">
               <h5 class="card-title">Easy To Use</h5>
@@ -105,8 +109,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 col-sm-12 mt-4 p-3">
-          <div class="card text-center p-5 shadow bg-body-tertiary rounded">
+        <div class="col-md-6 col-lg-4 col-sm-12 mt-4 p-3 appservice-card">
+          <div
+            class="card text-center p-5 shadow bg-body-tertiary rounded appservice-card"
+          >
             <i class="fa-solid fa-chart-simple" style="height: 40px"></i>
             <div class="card-body">
               <h5 class="card-title">Awesome Design</h5>
@@ -117,8 +123,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 col-sm-12 mt-4 p-3">
-          <div class="card text-center p-5 shadow bg-body-tertiary rounded">
+        <div class="col-md-6 col-lg-4 col-sm-12 mt-4 p-3 appservice-card">
+          <div
+            class="card text-center p-5 shadow bg-body-tertiary rounded appservice-card"
+          >
             <i class="fa-solid fa-user" style="height: 40px"></i>
             <div class="card-body">
               <h5 class="card-title">Easy To Customize</h5>
@@ -129,8 +137,10 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 col-sm-12 mt-4 p-3">
-          <div class="card text-center p-5 shadow bg-body-tertiary rounded">
+        <div class="col-md-6 col-lg-4 col-sm-12 mt-4 p-3 appservice-card">
+          <div
+            class="card text-center p-5 shadow bg-body-tertiary rounded appservice-card"
+          >
             <i class="fa-solid fa-layer-group" style="height: 40px"></i>
             <div class="card-body">
               <h5 class="card-title">UI/UX Design</h5>
@@ -141,8 +151,11 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 col-sm-12 mt-4 p-3">
-          <div class="card text-center p-5 shadow bg-body-tertiary rounded">
+        <div class="col-md-6 col-lg-4 col-sm-12 mt-4 p-3 appservice-card">
+          <div
+            class="card text-center p-5 shadow bg-body-tertiary rounded appservice-card"
+            style="height: 325px"
+          >
             <i class="fa-solid fa-mobile" style="height: 40px"></i>
             <div class="card-body">
               <h5 class="card-title">App Development</h5>
@@ -153,11 +166,16 @@
             </div>
           </div>
         </div>
-        <div class="col-md-6 col-lg-4 col-sm-12 mt-4 p-3">
-          <div class="card text-center p-5 shadow bg-body-tertiary rounded">
+        <div class="col-md-6 col-lg-4 col-sm-12 mt-4 p-3 appservice-card">
+          <div
+            class="card text-center p-5 shadow bg-body-tertiary rounded appservice-card"
+            style="height: 325px"
+          >
             <i class="fa-solid fa-rocket" style="height: 40px"></i>
             <div class="card-body">
-              <h5 class="card-title">User Froendly Interface</h5>
+              <h5 class="card-title d-flex flex-nowrap">
+                User Friendly Interface
+              </h5>
               <p class="card-text">
                 Ut maximus enim dolor. Aenean auctor risus eget tincidunt
                 lobortis. Donec tincidunt bibendum gravida.
@@ -170,9 +188,9 @@
     <!--Statistics-->
     <section class="section-padding mt-4">
       <div class="container-fluid text-center bg-danger-subtle p-2">
-        <div class="row mx-3 p-4">
+        <div class="row mx-3 p-4 stat-info">
           <div class="col-sm-6 col-md-12 col-lg-6 p-2 text-start">
-            <p class="text-secondary">Manage Statistics</p>
+            <p class="text-secondary stat-para">Manage Statistics</p>
             <h1>Detailed Statistics of your Company</h1>
             <p class="text-secondary">
               Praesent imperdiet, tellus et euismod euismod, risus lorem euismod
@@ -183,12 +201,14 @@
               rhoncus odio.
             </p>
             <br />
-            <button
-              type="button"
-              class="btn btn-outline-danger rounded-pill px-3"
-            >
-              Read More
-            </button>
+            <div class="stat-button">
+              <button
+                type="button"
+                class="btn btn-outline-danger rounded-pill px-3"
+              >
+                Read More
+              </button>
+            </div>
           </div>
           <div class="col-sm-12 col-md-12 col-lg-6 ml-5">
             <img src="Images/stat image.png" class="img-fluid" />
@@ -207,15 +227,15 @@
             <div
               class="card text-end p-3 d-flex flex-row shadow bg-body-tertiary rounded"
             >
-              <div class="card-body">
+              <div class="pt-3">
+                <i class="fa-solid fa-rocket" style="height: 40px"></i>
+              </div>
+              <div class="card-body text-start">
                 <h5 class="card-title">Bootstrap4 Based</h5>
                 <p class="card-text">
                   Ut maximus enim dolor. Aenean auctor risus eget tincidunt
                   lobortis. Donec tincidunt bibendum gravida.
                 </p>
-              </div>
-              <div class="pt-3">
-                <i class="fa-solid fa-rocket" style="height: 40px"></i>
               </div>
             </div>
           </div>
@@ -223,15 +243,15 @@
             <div
               class="card text-end p-3 d-flex flex-row shadow bg-body-tertiary rounded"
             >
-              <div class="card-body">
+              <div class="pt-3">
+                <i class="fa-solid fa-laptop" style="height: 40px"></i>
+              </div>
+              <div class="card-body text-start">
                 <h5 class="card-title">Fully Responsive</h5>
                 <p class="card-text">
                   Ut maximus enim dolor. Aenean auctor risus eget tincidunt
                   lobortis. Donec tincidunt bibendum gravida.
                 </p>
-              </div>
-              <div class="pt-3">
-                <i class="fa-solid fa-laptop" style="height: 40px"></i>
               </div>
             </div>
           </div>
@@ -239,24 +259,25 @@
             <div
               class="card text-end pt-4 d-flex flex-row shadow bg-body-tertiary rounded"
             >
-              <div class="card-body">
+              <div class="pt-3">
+                <i class="fa-solid fa-gear" style="height: 40px"></i>
+              </div>
+              <div class="card-body text-start">
                 <h5 class="card-title">HTML5, CSS3 & SAAS</h5>
                 <p class="card-text">
                   Ut maximus enim dolor. Aenean auctor risus eget tincidunt
                   lobortis. Donec tincidunt bibendum gravida.
                 </p>
               </div>
-              <div class="pt-3">
-                <i class="fa-solid fa-gear" style="height: 40px"></i>
-              </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="col-lg-4 col-md-12 col-sm-12 feature-img">
           <div class="p-5">
             <img
               src="Images/feature image.png"
               class="img-fluid object-fit-fill"
+              style="height: 500px; padding-top: 80px"
             />
           </div>
         </div>
@@ -328,8 +349,8 @@
                   alt="..."
                 />
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
+              <div class="col-md-8 d-flex align-items-center team-card-body">
+                <div class="card-body team-card-body">
                   <h5 class="card-title">DAVID SMITH</h5>
                   <div class="text-secondary">
                     <p>Front-End Developer</p>
@@ -353,8 +374,8 @@
                   alt="..."
                 />
               </div>
-              <div class="col-md-8">
-                <div class="card-body">
+              <div class="col-md-8 d-flex align-items-center">
+                <div class="card-body team-card-body">
                   <h5 class="card-title">ERIC PETERSON</h5>
                   <div class="text-secondary">
                     <p>Product Designer</p>
@@ -373,7 +394,7 @@
     <!--Register-->
     <section class="section-padding p-3 mx-5">
       <div class="row p-2">
-        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="col-lg-6 col-md-12 col-sm-12">
           <h3
             class="section-header"
             style="font-family: cursive; font-size: 40px"
@@ -385,8 +406,8 @@
             erat, at finibus neque odio quis metus. Donec vulputate arcu quam.
           </p>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12 p-5">
-          <div class="d-flex align-self-center button">
+        <div class="col-lg-6 col-md-12 col-sm-12 p-5">
+          <div class="d-flex align-item-center button">
             <button
               type="button"
               class="btn btn-outline-danger rounded-pill px-4 pt-2 pb-2"
