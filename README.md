@@ -1,4 +1,4 @@
-Week 6 Javascript Task
+Week 4 Javascript Task
 
 1.JavaScript Program to Find the Factorial of a Number  
 2.merge two arrays and remove duplicate items and sort array in ascending order.
