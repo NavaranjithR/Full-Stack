@@ -1,0 +1,97 @@
+/* Style for the footer logo */
+.footer-logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style for the contact and useful link sections */
+.detail {
+  margin-top: 30px;
+  display: flex;
+}
+
+.detail h5 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.detail p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Style for the useful link section */
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: red;
+}
+
+.footer-subscribe-content {
+  margin-top: 50px;
+}
+.footer-subscribe h1 {
+  font-size: 60px;
+  font-weight: 400;
+}
+.footer-subscribe p {
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 10px;
+}
+.footer-email {
+  display: flex;
+  gap: 30px;
+  padding-top: 50px;
+}
+.footer-email input {
+  border: none;
+  border-bottom: 2px solid black;
+  width: 350px;
+  font-size: 15px;
+  outline: none;
+}
+.footer-email button {
+  width: 150px;
+  height: 50px;
+  border: 3px solid black;
+  background-color: #fff;
+  font-size: large;
+}
+
+/* @media screen and (max-width: 767px) {
+  .footer-details,
+  .footer-subscribe-content {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .footer-details,
+  .footer-subscribe-content {
+    text-align: center;
+  }
+  .footer-logo {
+    text-align: center;
+  }
+  .detail {
+    display: flex;
+  }
+} */
